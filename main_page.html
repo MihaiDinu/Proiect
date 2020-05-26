@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>
+        Login/registration
+    </title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <input id="id1" type="text" placeholder="username"/>
+                <input id="id2" type="password" placeholder="password"/>
+                <p class="miesaaaj"> </p>
+                <a href="index.html" class="form-button">Register</a>
+                <button onclick="myFunction()">OK</button>
+                <p class="miesaaaj">Already Registered?<a href="#">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scriptul myFunction nu merge -->
+    <script>
+        function myFunction() {
+          var txt = "";
+          if (document.getElementById("id1")=="Ditu" && document.getElementById("id2")=="123" ) {
+            txt = "Login OK";
+          }
+          document.getElementById("demo").innerHTML = txt;
+        }
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	background-image: url("https://images.wallpaperscraft.com/image/coffee_cappuccino_cup_136699_1920x1080.jpg");
+	box-sizing: border-box;
+}
+
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.title{
+	color: blue;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.title2 {
+	color: red;
+	text-transform: capitalize;
+	font-weight: 400;
+
+}
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 70px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 4.50rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.4;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 0.5rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 2.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: blue;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #E00;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
+
+.login-page{
+	width: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+
+}
+
+.form{
+	position: relative;
+	z-index: 1;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form-input{
+	font-family: "Roboto",sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.form-button{
+	font-family: "Times New Roman",sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	width: 100%;
+	border: 0;
+	padding: 10px;
+	color: aqua;
+	font-size: 12px
+}
+
+.miesaaaj{
+	color: red;
+	font-family: "Times New Roman",sans-serif;
+	font-weight: 400;
+}
