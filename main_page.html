@@ -4,31 +4,26 @@
         Login/registration
     </title> 
     <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="login-page">
         <div class="form">
             <form class="register-form">
-                <input id="id1" type="text" placeholder="username"/>
-                <input id="id2" type="password" placeholder="password"/>
+                <input class="input2" id="username" type="text" placeholder="username"/>
+                <input class="input2" id="password" type="password" placeholder="password"/>
                 <p class="miesaaaj"> </p>
-                <a href="index.html" class="form-button">Register</a>
-                <button onclick="myFunction()">OK</button>
-                <p class="miesaaaj">Already Registered?<a href="#">Login</a></p>
+                <button type="button" onclick="getInfo()" class="btn btn-success">Login</button>
             </form>
+            <script src="test.js"></script>
         </div>
     </div>
 
-    <!-- Scriptul myFunction nu merge -->
-    <script>
-        function myFunction() {
-          var txt = "";
-          if (document.getElementById("id1")=="Ditu" && document.getElementById("id2")=="123" ) {
-            txt = "Login OK";
-          }
-          document.getElementById("demo").innerHTML = txt;
-        }
-        </script>
+
 
 </body>
 </html>
